@@ -145,16 +145,6 @@ Works
   flex-direction: row;
   margin-left: 6px;
 }
-button:hover {
-  background-color: #3244e7;
-  color: white;
-  transition: 0.3s;
-}
-
-button:active {
-  background-color: #3244e7;
-  color: white;
-}
 
 .card-works-title {
   font-style: normal;
@@ -233,6 +223,17 @@ button {
   background-color: white;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+  background-color: #3244e7;
+  color: white;
+  transition: 0.3s;
+}
+
+button:active {
+  background-color: #3244e7;
+  color: white;
 }
 
 .role .year {
