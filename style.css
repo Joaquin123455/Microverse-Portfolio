@@ -143,6 +143,17 @@ Works
 .ref {
   display: flex;
   flex-direction: row;
+  margin-left: 6px;
+}
+button:hover {
+  background-color: #3244e7;
+  color: white;
+  transition: 0.3s;
+}
+
+button:active {
+  background-color: #3244e7;
+  color: white;
 }
 
 .card-works-title {
@@ -152,6 +163,7 @@ Works
   line-height: 44px;
   color: #172b4d;
   font-family: 'Poppins', serif;
+  padding-left: 8px;
 }
 
 .client {
@@ -159,6 +171,7 @@ Works
   font-weight: 400;
   text-transform: uppercase;
   color: #344563;
+  margin-left: 4px;
 }
 
 span {
@@ -183,19 +196,20 @@ span {
   line-height: 24px;
   color: #344563;
   font-family: 'Poppins', sans-serif;
+  padding-left: 6px;
 }
 
 .tags {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  margin-left: 6px;
 }
 
 .tag {
   align-items: center;
-  margin: auto auto;
-  padding: 4px 12px;
+  margin-right: 6px;
+  padding: 6px 8px;
   background: #ebebff;
   border-radius: 8px;
   font-style: normal;
@@ -272,6 +286,7 @@ button {
   line-height: 44px;
   color: #172b4d;
   font-family: 'Poppins', serif;
+  padding-left: 8px;
 }
 
 .about-my-self-title {
@@ -340,7 +355,7 @@ button {
 .languages {
   display: flex;
   justify-content: space-between;
-  padding-left: 5%;
+  padding-left: 24px;
   padding-bottom: 5%;
 }
 
@@ -359,7 +374,8 @@ h3 {
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
-  margin: 6px auto;
+  margin-left: 24px;
+  margin-bottom: 12px;
 }
 
 .wording {
@@ -381,7 +397,7 @@ h3 {
 .languages-2 {
   display: flex;
   justify-content: space-between;
-  padding-left: 5%;
+  padding-left: 24px;
   padding-bottom: 24px;
   padding-top: 36px;
   font-family: 'Poppins', sans-serif;
@@ -390,7 +406,7 @@ h3 {
 .languages-3 {
   display: flex;
   justify-content: space-between;
-  padding-left: 5%;
+  padding-left: 24px;
   font-family: 'Poppins', sans-serif;
 }
 
