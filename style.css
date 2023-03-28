@@ -435,7 +435,7 @@ footer {
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 5px;
   background: url(img/contact-form.svg);
-  height: 1000px;
+  height: 900px;
   background-color: #6070ff; 
   border-top-left-radius: 80px;
   background-repeat: no-repeat;
@@ -491,7 +491,7 @@ input {
 
 textarea {
   border-radius: 8px;
-  height: 75%;
+  height: 50%;
   width: 327px;
   padding-left: 16px;
   padding-top: 15px;
@@ -500,6 +500,7 @@ textarea {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
+  font-family: "Poppins", sans-serif;
 }
 
 .submit {
