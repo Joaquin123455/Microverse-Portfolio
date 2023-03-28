@@ -81,7 +81,7 @@ Clone this repository to your desired folder:
 - Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
 - LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
 
-👤 Alvaro Iporre
+👤 **Alvaro Iporre**
 
 - GitHub: [@alvaroiporre](https://github.com/alvaroiporre)
 - Twitter: [@alvaro.iporre](https://twitter.com/twitterhandle)
