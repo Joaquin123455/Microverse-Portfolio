@@ -81,6 +81,18 @@ Clone this repository to your desired folder:
 - Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
 - LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
 
+👤 Alvaro Iporre
+
+- GitHub: [@alvaroiporre](https://github.com/alvaroiporre)
+- Twitter: [@alvaro.iporre](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alvaro-iporre-martiez-501533124/)
+
+👤 **Marco Antonio Baquero**
+
+- GitHub: [@mrcbq](https://github.com/mrcbq)
+- Twitter: [@mrcbq](https://twitter.com/mrcbq)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mrcbq)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
