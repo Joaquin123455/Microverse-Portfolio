@@ -1,0 +1,290 @@
+@media (min-width: 768px)  {
+  
+  /*
+  HEADER
+  */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f7f7f9;
+    min-width: 768px;
+    max-width:100%;
+  }
+  
+  header {
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 24px;
+  }
+
+  .header-title {
+    padding-left: 155px;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .nav-bar-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-bar-header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15%;
+    padding-right: 155px;
+  }
+
+  .li-nav-bar-header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-align: center;
+  }
+
+  /* 
+  MAIN PAGE
+  */
+
+  .main-page {
+    background-image: url(./img/desktop/Header-bg.svg);
+    background-size: 95%;
+    background-position: top center;
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    border-bottom-left-radius: 160px;
+    padding-left: 34px;
+  }
+
+  .main-title {
+    padding-left: 226px;
+    padding-right: 260px;
+    padding-top: 300px;
+    padding-bottom: 12px;
+    width: 900px;
+  }
+
+  .main-paragraph {
+    padding-left: 226px;
+    padding-right: 260px;
+    padding-bottom: 6px;
+    width: 100%;
+  }
+
+  .supporting-text {
+    padding-left: 226px;
+    padding-bottom: 12px;
+    width: 100%;
+  }
+
+  .icon-bar {
+    padding-left: 226px;
+    padding-right: 1000px;
+  }
+
+  /*
+  WORKS
+  */
+  
+  .works {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    background-color: white;
+    width: 61%;
+    height: auto;
+    margin: 114px auto;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+  
+  .card-works {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+  }
+
+  .adjust {
+    padding-left: 46px;
+    padding-top: 48px;
+  }
+
+  .snapshoot-img {
+    display: none;
+  }
+
+  .snapshoot-img-dsk {
+    display: flex;
+    width: 544px;
+    height: 448px;
+    border-radius: 8px;
+    padding-left: 20px;
+  }
+
+  .card-works-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding-bottom: 10px;
+  }
+
+  .card-works-title-1 {
+    display: none;
+  }
+
+  .card-works-title-hidden-1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding-bottom: 10px;
+    display: inline;
+  }
+
+  .card-works-title-hidden {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding-bottom: 10px;
+    display: inline;
+  }
+  .client-hidden {
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #344563;
+    margin-left: 4px;
+    display: inline;
+  }
+
+  .client-hidden-2 {
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #344563;
+    margin-left: 4px;
+    display: inline;
+  }
+
+  .client-1 {
+    display:none
+  }
+
+  .card-primary-text {
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 25px;
+  }
+
+  .tags {
+    padding-bottom: 20px;
+  }
+
+  .tag-hidden {
+    align-items: center;
+    margin-right: 6px;
+    padding: 6px 8px;
+    background: #ebebff;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+  }
+
+  .works-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    background-color: white;
+    width: 61%;
+    height: auto;
+    margin: 114px auto;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .works-3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    background-color: white;
+    width: 61%;
+    height: auto;
+    margin: 114px auto;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .works-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    background-color: white;
+    width: 61%;
+    height: auto;
+    margin: 114px auto;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .snapshoot-img-dsk-2 {
+    display: flex;
+    width: 544px;
+    height: 448px;
+    border-radius: 8px;
+    padding-right: 20px;
+  }
+
+  /*
+  ABOUT MYSELF
+  */
+  .about-my-self {
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+
+  .squads {
+    margin-left: 8%;
+  }
+
+  .skill {
+    margin-right: 20%;
+  }
+
+
+  /*
+  CONTACT FORM
+  */
+
+  .submit {
+    margin-left: 45%;
+  }
+}
+
