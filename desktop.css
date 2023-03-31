@@ -284,4 +284,9 @@
   .submit {
     margin-left: 45%;
   }
+
+  .header-title {
+    animation: rotate 2d linear infinite;
+  }
+
 }
