@@ -286,7 +286,6 @@
   }
 
   .header-title {
-    animation: rotate 2d linear infinite;
+    animation: rotate 2s linear infinite;
   }
-
 }
