@@ -1,3 +1,7 @@
+:root {
+  --my-contrast-color: #1F35FF;
+}
+
 @media (min-width: 768px) {
   /*
   HEADER
@@ -221,7 +225,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070FF;
+    color: var(--my-contrast-color);
     font-family: 'Poppins', sans-serif;
     display: inline;
   }
