@@ -1,5 +1,5 @@
 :root {
-  --my-contrast-color: #1F35FF;
+  --my-contrast-color: #1f35ff;
 }
 
 @media (min-width: 768px) {
@@ -41,7 +41,6 @@
     }
   }
 
-
   .fa-bars {
     display: none;
   }
@@ -69,7 +68,7 @@
     text-align: center;
   }
 
-    /*
+  /*
     MAIN PAGE
     */
 

@@ -38,7 +38,7 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070ff;
+  color: #214073;
   text-decoration: none;
 }
 
@@ -58,13 +58,13 @@ header {
 .main-title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   margin-left: 24px;
   padding-top: 104px;
   width: 80%;
-  color: #172b4d;
+  color: #214073;
 }
 
 .main-paragraph {
@@ -87,7 +87,7 @@ header {
   line-height: 24px;
   padding-top: 12px;
   margin-left: 24px;
-  color: #1F35FF;
+  color: #1f35ff;
 }
 
 .supporting-text-myself {
@@ -98,7 +98,7 @@ header {
   line-height: 24px;
   padding-top: 12px;
   margin-left: 24px;
-  color: #1F35FF;
+  color: #1f35ff;
 }
 
 .icon-bar {
@@ -302,7 +302,7 @@ span {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #1F35FF;
+  color: #1f35ff;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -317,7 +317,7 @@ span {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #1F35FF;
+  color: #1f35ff;
   font-family: 'Poppins', sans-serif;
   display: none;
 }
@@ -327,9 +327,9 @@ button {
   justify-content: center;
   margin: 16px 0 26px 0;
   padding: 12px 12px;
-  color: #1F35FF;
+  color: #1f35ff;
   box-sizing: border-box;
-  border: 1px solid #1F35FF;
+  border: 1px solid #1f35ff;
   border-radius: 8px;
   background-color: white;
   text-transform: uppercase;
@@ -627,7 +627,7 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #1F35FF;
+  color: #1f35ff;
 }
 
 .submit:hover {
