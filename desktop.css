@@ -1,3 +1,7 @@
+:root {
+  --my-contrast-color: #1f35ff;
+}
+
 @media (min-width: 768px) {
   /*
   HEADER
@@ -36,7 +40,6 @@
       transform: rotate(360deg);
     }
   }
-
 
   .fa-bars {
     display: none;
@@ -221,7 +224,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: var(--my-contrast-color);
     font-family: 'Poppins', sans-serif;
     display: inline;
   }
