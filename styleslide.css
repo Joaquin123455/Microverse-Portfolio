@@ -1,0 +1,86 @@
+.a-nav-bar-hidden {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+.overlay {
+  background-color: #6070ff;
+  opacity: 65%;
+  color: #fff;
+  height: 812px;
+  width: 765px;
+  transition: 0.3s;
+}
+
+.nav-bar-ul-hidden {
+  text-align: left;
+  padding-left: 28px;
+  padding-top: 108px;
+  list-style: none;
+}
+
+.li-nav-bar-hidden {
+  padding-bottom: 20px;
+}
+
+.closebtn {
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 45px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.overlay .a-nav-bar-hidden {
+  padding: 8px;
+  margin: 2rem;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #fff5e1;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay .nav-bar-ul-hidden {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.overlay .closebtn {
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay .a-nav-bar-hidden {
+    font-size: 20px;
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

@@ -9,21 +9,30 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="styleslide.css">
   <title>Joaquin's Portfolio</title>
 </head>
 <body>
   <header>
     <a class="header-title" href="#">My Logo</a>
       <nav class="nav-bar">
-        <i class="fa fa-bars fa-lg bars"></i>
+        <i class="fa fa-bars fa-lg bars" id="openOnClick"></i>
       </nav>
       <nav class="nav-bar-2">
         <ul class="nav-bar-header">
-          <li class="li-nav-bar-header">Porfolio</li>
-          <li class="li-nav-bar-header">About</a></li>
+          <li class="li-nav-bar-header">Portfolio</li>
+          <li class="li-nav-bar-header">About</li>
           <li class="li-nav-bar-header">Contact</li>
         </ul>
-      </nav>
+        </nav>
+        <div class="overlay" id="myNav">
+          <a href = "javascript:void(0)" class="closebtn" id="closeOnClick">&#215;</a>
+          <ul class="nav-bar-ul-hidden" id="menuOpt">
+            <li class="li-nav-bar-hidden"><a class="a-nav-bar-hidden">Portfolio</a></li>
+            <li class="li-nav-bar-hidden"><a class="a-nav-bar-hidden">About</a></li>
+            <li class="li-nav-bar-hidden"><a class="a-nav-bar-hidden">Contact</a></li>
+          </ul>
+        </div>
   </header>
   <main>
     <section class="main-page">
@@ -237,5 +246,6 @@
           </form>
     </div>
 </footer>
+<script src="./menu.js"></script>
 </body>
 </html>

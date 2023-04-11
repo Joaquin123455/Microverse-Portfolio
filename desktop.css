@@ -45,6 +45,10 @@
     display: none;
   }
 
+  .nav-bar-hidden-div { 
+    display: none;
+  }
+
   .nav-bar-2 {
     display: flex;
     flex-direction: row;
