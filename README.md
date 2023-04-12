@@ -72,6 +72,7 @@ Clone this repository to your desired folder:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://joaquin123455.github.io/microverse-portfolio/)
+- [Live Walkthrough](https://www.loom.com/share/1a0a5b2fefe5429eb23322efb8bacc90)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
