@@ -12,45 +12,43 @@
 }
 
 .mobile-content {
-  position: relative;
+  padding-top: 100px;
   top: 25%;
   width: 100%;
   text-align: left;
-  margin-top: 30px;
-  margin-left: 5rem;
-  margin-right: 5rem;
 }
 
 .mobile-menu a {
   padding: 8px;
-  margin: 2rem;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 44px;  
   color: #fff5e1;
   display: block;
   transition: 0.3s;
+  margin-left: 20px;
 }
 
 .mobile-menu ul.mobile-content {
   text-decoration: none;
   list-style-type: none;
+  text-align: left;
 }
 
 .mobile-menu .closebtn {
   border: none;
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  left: 300px;
+  font-size: 40px;
 }
 
 .mobile-menu a:hover,
 .mobile-menu a:focus {
   color: #f1f1f1;
 }
+
 
 @media screen and (max-height: 450px) {
   .mobile-menu {
