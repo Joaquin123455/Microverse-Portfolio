@@ -52,7 +52,7 @@ header {
 }
 
 .main-page {
-  background-image: url(./img/header-shapes.svg);
+  background-image: url(../img/header-shapes.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
