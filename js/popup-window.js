@@ -49,36 +49,34 @@ const cardWorks = document.querySelector('#portfolio');
 const cardWorks1 = document.querySelector('#portfolio1');
 const cardWorks2 = document.querySelector('#portfolio2');
 const cardWorks3 = document.querySelector('#portfolio3');
+
+cardWorks.className = "works";  
 const workCard = document.createElement('article');
 const workCardDiv = document.createElement('div');
-
-workCard.className = 'workCard';
-workCard.innerHTML = `
-<img src="./img/Snapshoot Portfolio.png" alt="snapshootimg" class="snapshoot-img">
-<img src="./img/desktop/Snapshoot1-desktop.svg" alt="snapshootdsk" class="snapshoot-img-dsk">`
-workCardDiv.appendChild(workCard);
-workCard.appendChild(cardWorks);
-
-workCardDiv.innerHTML = `
-<div class="leftblock">
-  <h2 class="card-works-title">Tonic</h2>
-  <div class="ref">
-    <span class="client">Canopy</span>
-    <span><i class="fa fa-circle fa-xs"></i></span>
-    <span>Back End Dev</span>
-    <span><i class="fa fa-circle"></i></span>
-    <span class="year">2015</span>
+workCardDiv.className = "card-works";
+cardWorks.appendChild(workCard);
+workCard.className = 'card-works';
+workCard.innerHTML = `<img src="./img/Snapshoot Portfolio.png" alt="snapshootimg" class="snapshoot-img">
+<img src="./img/desktop/Snapshoot1-desktop.svg" alt="snapshootdsk" class="snapshoot-img-dsk">
+<div class="adjust">
+  <div class="leftblock">
+    <h2 class="card-works-title">Tonic</h2>
+    <div class="ref">
+      <span class="client">Canopy</span>
+      <span><i class="fa fa-circle fa-xs"></i></span>
+      <span>Back End Dev</span>
+      <span><i class="fa fa-circle"></i></span>
+      <span class="year">2015</span>
+    </div>
+    <p class="card-primary-text">A daily selection of privately personalized reads; no accounts or sign-ups
+      required.</p>
   </div>
-  <p class="card-primary-text">A daily selection of privately personalized reads; no accounts or sign-ups
-    required.</p>
-</div>
-<ul class="tags">
-  <li class="tag">html</button>
-  <li class="tag">css</button>
-  <li class="tag">javascript</button>
-</ul>
-<div class="ref">
-  <button>See project</button>
+  <ul class="tags">
+    <li class="tag">html</button>
+    <li class="tag">css</button>
+    <li class="tag">javascript</button>
+  </ul>
+  <div class="ref">
+    <button>See project</button>
+  </div>
 </div>`;
-
-
