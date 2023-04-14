@@ -74,12 +74,12 @@ workCard.innerHTML = `<img src= ${cardetails[0].img} alt="snapshootimg" class="s
     <p class="card-primary-text">${cardetails[0].textcontent}</p>
   </div>
   <ul class="tags">
-    <li class="tag">${cardetails[0].technologies[0]}</button>
-    <li class="tag">${cardetails[0].technologies[1]}</button>
-    <li class="tag">${cardetails[0].technologies[2]}</button>
+    <li class="tag">${cardetails[0].technologies[0]}</li>
+    <li class="tag">${cardetails[0].technologies[1]}</li>
+    <li class="tag">${cardetails[0].technologies[2]}</li>
   </ul>
   <div class="ref">
-    <button>${cardetails[0].btntxt}</button>
+    <button class="popup-btn">${cardetails[0].btntxt}</button>
   </div>
 </div>`;
 
@@ -104,13 +104,13 @@ workCard1.innerHTML = `<img src=${cardetails[1].img} alt="snapshootimg" class="s
     <p class="card-primary-text">${cardetails[1].textcontent}</p>
   </div>
   <ul class="tags">
-    <li class="tag">${cardetails[1].technologies[0]}</button>
-    <li class="tag">${cardetails[1].technologies[1]}</button>
+    <li class="tag">${cardetails[1].technologies[0]}</li>
+    <li class="tag">${cardetails[1].technologies[1]}</li>
     <li class="tag-hidden">${cardetails[1].technologiesdsk[2]}</li>
-    <li class="tag">${cardetails[1].technologies[2]}</button>
+    <li class="tag">${cardetails[1].technologies[2]}</li>
   </ul>
   <div class="ref">
-    <button>${cardetails[1].btntxt}</button>
+    <button class="popup-btn">${cardetails[1].btntxt}</button>
   </div>
 </div>
 <img src=${cardetails[1].imagedsk} alt="snapshootdsk" class="snapshoot-img-dsk-2">`;
@@ -138,13 +138,13 @@ workCard2.innerHTML = `<img src=${cardetails[2].img} alt="snapshootimg" class="s
     <p class="card-primary-text">${cardetails[2].textcontent}</p>
   </div>
   <ul class="tags">
-    <li class="tag">${cardetails[2].technologies[0]}</button>
-    <li class="tag">${cardetails[2].technologies[1]}</button>
+    <li class="tag">${cardetails[2].technologies[0]}</li>
+    <li class="tag">${cardetails[2].technologies[1]}</li>
     <li class="tag-hidden">${cardetails[2].technologiesdsk[2]}</li>
-    <li class="tag">${cardetails[2].technologies[2]}</button>
+    <li class="tag">${cardetails[2].technologies[2]}</li>
   </ul>
   <div class="ref">
-    <button>${cardetails[2].btntxt}</button>
+    <button class="popup-btn">${cardetails[2].btntxt}</button>
   </div>
 </div>`;
 
@@ -170,13 +170,39 @@ workCard3.innerHTML = `<img src=${cardetails[3].img} alt="snapshootimg" class="s
     <p class="card-primary-text">${cardetails[3].textcontent}</p>
   </div>
   <ul class="tags">
-    <li class="tag">${cardetails[3].technologies[0]}</button>
-    <li class="tag">${cardetails[3].technologies[1]}</button>
+    <li class="tag">${cardetails[3].technologies[0]}</li>
+    <li class="tag">${cardetails[3].technologies[1]}</li>
     <li class="tag-hidden">${cardetails[3].technologiesdsk[2]}</li>
-    <li class="tag">${cardetails[3].technologies[2]}</button>
+    <li class="tag">${cardetails[3].technologies[2]}</li>
   </ul>
   <div class="ref">
-    <button>${cardetails[2].btntxt}</button>
+    <button class="popup-btn">${cardetails[2].btntxt}</button>
   </div>
 </div>
 <img src=${cardetails[3].imagedsk} alt="snapshoot-img" class="snapshoot-img-dsk-2">`
+
+cardWorks.appendChild(workCard)
+
+const buttons = document.querySelectorAll('.popup-btn')
+const modal = document.getElementById('myModal');
+const span = document.getElementsByClassName('close')[0];
+
+const spanone = () => {
+  modal.style.display = 'none';
+};
+
+const close = (event) => {
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+};
+
+window.addEventListener('click', close);
+span.addEventListener('click', spanone);
+
+// add Listener Event to each see-project button
+for (let i = 0; i <= buttons.length; i += 1) {
+  buttons[i].addEventListener('click', () => {
+    modal.style.display = 'block';
+  });
+}
