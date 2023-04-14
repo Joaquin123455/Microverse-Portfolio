@@ -1,5 +1,6 @@
 .works-modal {
-  display: grid;
+  display: none;
+  z-index: 1;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 5px;
   background-color: white;
@@ -9,10 +10,11 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   min-width: 375px;
-  max-width: 768px;
+  max-width: 768px;  
 }
 
 .modal {
+  
   margin: 24px;
 }
 
@@ -26,6 +28,13 @@
 .close-popup {
   font-size: 30px;
   color: #67798e;
+}
+
+.close-popup:hover,
+.close-popup:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .img-popup {
@@ -140,11 +149,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .close-popup {
-    font-size: 30px;
-    color: #67798e;
   }
 
   .spans-popup {

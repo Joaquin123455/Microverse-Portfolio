@@ -181,11 +181,11 @@ workCard3.innerHTML = `<img src=${cardetails[3].img} alt="snapshootimg" class="s
 </div>
 <img src=${cardetails[3].imagedsk} alt="snapshoot-img" class="snapshoot-img-dsk-2">`;
 
-cardWorks.appendChild(workCard);
+// cardWorks.appendChild(workCard);
 
 const buttons = document.querySelectorAll('.popup-btn');
 const modal = document.getElementById('myModal');
-const span = document.getElementsByClassName('close')[0];
+const span = document.getElementsByClassName('close-popup')[0];
 
 const spanone = () => {
   modal.style.display = 'none';
