@@ -1,20 +1,18 @@
-.works-modal {
-  display: none;
+.modal {
+  position: fixed;
   z-index: 1;
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 5px;
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.9);
+  backdrop-filter: blur(9px);
+  overflow-y: hidden;
+  overflow-x: hidden;
   width: 80%;
   height: auto;
   margin: 114px auto;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  min-width: 375px;
-  max-width: 768px;
-}
-
-.modal {
-  margin: 24px;
+  padding: 24px;
+  left: 10%;
+  top: -5%;
 }
 
 .frame-desktop {
@@ -129,18 +127,21 @@
 }
 
 @media (min-width: 768px) {
-  .works-modal {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 5px;
-    background-color: white;
+  .modal {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255, 0.9);
+    backdrop-filter: blur(9px);
+    overflow-y: hidden;
+    overflow-x: hidden;
     width: 80%;
     height: auto;
     margin: 114px auto;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    min-width: none;
-    max-width: none;
+    padding: 24px;
+    left: 10%;
+    top: -10%;
   }
 
   .frame-desktop {
