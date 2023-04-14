@@ -1,12 +1,12 @@
 const cardetails = [
-  { 
+  {
     title: 'Tonic',
     img: './img/Snapshoot-Portfolio.png',
     imagedsk: './img/desktop/Snapshoot1-desktop.svg',
     spans: ['Canopy', 'Back End Dev', '2015'],
     textcontent: 'A daily selection of privately personalized reads; no accounts or sign-ups',
     technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
-    btntxt: 'See Project'
+    btntxt: 'See Project',
   },
 
   {
@@ -18,7 +18,7 @@ const cardetails = [
     textcontent: 'A daily selection of privately personalized reads; no accounts or sign-ups',
     technologies: ['HTML', 'CSS', 'javascript'],
     technologiesdsk: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    btntxt: 'See Project'
+    btntxt: 'See Project',
   },
 
   {
@@ -31,7 +31,7 @@ const cardetails = [
     textcontent: 'A daily selection of privately personalized reads; no accounts or sign-ups',
     technologies: ['HTML', 'CSS', 'javascript'],
     technologiesdsk: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    btntxt: 'See Project'
+    btntxt: 'See Project',
   },
 
   {
@@ -44,8 +44,8 @@ const cardetails = [
     textcontent: 'A daily selection of privately personalized reads; no accounts or sign-ups',
     technologies: ['HTML', 'CSS', 'javascript'],
     technologiesdsk: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    btntxt: 'See Project'
-  }
+    btntxt: 'See Project',
+  },
 ];
 
 const cardWorks = document.querySelector('#portfolio');
@@ -53,10 +53,10 @@ const cardWorks1 = document.querySelector('#portfolio1');
 const cardWorks2 = document.querySelector('#portfolio2');
 const cardWorks3 = document.querySelector('#portfolio3');
 
-cardWorks.className = "works";  
+cardWorks.className = 'works';
 const workCard = document.createElement('article');
 const workCardDiv = document.createElement('div');
-workCardDiv.className = "card-works";
+workCardDiv.className = 'card-works';
 cardWorks.appendChild(workCard);
 workCard.className = 'card-works';
 workCard.innerHTML = `<img src= ${cardetails[0].img} alt="snapshootimg" class="snapshoot-img">
@@ -83,12 +83,12 @@ workCard.innerHTML = `<img src= ${cardetails[0].img} alt="snapshootimg" class="s
   </div>
 </div>`;
 
-cardWorks1.className = "works-2";
+cardWorks1.className = 'works-2';
 const workCard1 = document.createElement('article');
 const workCardDiv1 = document.createElement('div');
-workCardDiv1.className = "card-works";
+workCardDiv1.className = 'card-works';
 cardWorks1.appendChild(workCard1);
-workCard1.className = "card-works";
+workCard1.className = 'card-works';
 workCard1.innerHTML = `<img src=${cardetails[1].img} alt="snapshootimg" class="snapshoot-img">
 <div class="adjust">
   <div class="leftblock">
@@ -115,12 +115,12 @@ workCard1.innerHTML = `<img src=${cardetails[1].img} alt="snapshootimg" class="s
 </div>
 <img src=${cardetails[1].imagedsk} alt="snapshootdsk" class="snapshoot-img-dsk-2">`;
 
-cardWorks2.className = "works-3";
+cardWorks2.className = 'works-3';
 const workCard2 = document.createElement('article');
 const workCardDiv2 = document.createElement('div');
-workCardDiv2.className = "card-works";
+workCardDiv2.className = 'card-works';
 cardWorks2.appendChild(workCard2);
-workCard2.className = "card-works";
+workCard2.className = 'card-works';
 workCard2.innerHTML = `<img src=${cardetails[2].img} alt="snapshootimg" class="snapshoot-img">
 <img src=${cardetails[2].imagedsk} alt="snapshootdsk" class="snapshoot-img-dsk">
 <div class="adjust">
@@ -148,12 +148,12 @@ workCard2.innerHTML = `<img src=${cardetails[2].img} alt="snapshootimg" class="s
   </div>
 </div>`;
 
-cardWorks3.className = "works-4";
+cardWorks3.className = 'works-4';
 const workCard3 = document.createElement('article');
 const workCardDiv3 = document.createElement('div');
-workCardDiv3.className = "card-works";
+workCardDiv3.className = 'card-works';
 cardWorks3.appendChild(workCard3);
-workCard3.className = "card-works";
+workCard3.className = 'card-works';
 workCard3.innerHTML = `<img src=${cardetails[3].img} alt="snapshootimg" class="snapshoot-img">
 <div class="adjust">
   <div class="leftblock">
@@ -161,7 +161,7 @@ workCard3.innerHTML = `<img src=${cardetails[3].img} alt="snapshootimg" class="s
     <h2 class="card-works-title-hidden-1">${cardetails[3].titledsk}</h2>
     <div class="ref">
       <span class="client-1">${cardetails[3].spans[0]}</span>
-      <span class="client-hidden-2">${cardetails[3].spansdsk [0]}</span>
+      <span class="client-hidden-2">${cardetails[3].spansdsk[0]}</span>
       <span><i class="fa fa-circle fa-xs"></i></span>
       <span class="role">${cardetails[3].spans[1]}</span>
       <span><i class="fa fa-circle"></i></span>
@@ -179,11 +179,11 @@ workCard3.innerHTML = `<img src=${cardetails[3].img} alt="snapshootimg" class="s
     <button class="popup-btn">${cardetails[2].btntxt}</button>
   </div>
 </div>
-<img src=${cardetails[3].imagedsk} alt="snapshoot-img" class="snapshoot-img-dsk-2">`
+<img src=${cardetails[3].imagedsk} alt="snapshoot-img" class="snapshoot-img-dsk-2">`;
 
-cardWorks.appendChild(workCard)
+cardWorks.appendChild(workCard);
 
-const buttons = document.querySelectorAll('.popup-btn')
+const buttons = document.querySelectorAll('.popup-btn');
 const modal = document.getElementById('myModal');
 const span = document.getElementsByClassName('close')[0];
 
