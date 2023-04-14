@@ -10,11 +10,10 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   min-width: 375px;
-  max-width: 768px;  
+  max-width: 768px;
 }
 
 .modal {
-  
   margin: 24px;
 }
 
