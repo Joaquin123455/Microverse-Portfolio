@@ -205,11 +205,11 @@ span.addEventListener('click', spanone);
 for (let i = 0; i <= buttons.length; i += 1) {
   buttons[i].addEventListener('click', () => {
     modal.style.display = 'block';
-    const title = document.querySelectorAll('.popup-title');
-    document.querySelector('.frame-mobile-h2').innerHTML = title[i].innerHTML;
-    const popupimg = document.querySelectorAll('popupimg');
-    document.querySelector('.popup-image').innerHTML = imgdsk[i].innerHTML;
-     const popupspan = document.querySelectorAll('popupspan');
-     document.querySelector('.client').innerHTML = spandsk[i].innerHTML;
+  const title = document.querySelectorAll('.popup-title');
+  document.querySelector('.frame-mobile-h2').innerHTML = title[i].innerHTML;
+  const imagedsk = document.querySelectorAll('popupimg');
+  document.querySelector('.popup-image').innerHTML = imagedsk[i].innerHTML;
+  const spansdsk = document.querySelectorAll('popupspan');
+  document.querySelector('.client').innerHTML = spansdsk[i].innerHTML;
   });
 }

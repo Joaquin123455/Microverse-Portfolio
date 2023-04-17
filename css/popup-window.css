@@ -139,7 +139,7 @@
   color: white;
 }
 
-.btn-popup-left {
+.btn-popup-left:hover {
   background-color: #3244e7;
   color: white;
   transition: 0.3s;
