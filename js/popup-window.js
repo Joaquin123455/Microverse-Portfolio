@@ -209,7 +209,5 @@ for (let i = 0; i <= buttons.length; i += 1) {
     document.querySelector('.frame-mobile-h2').innerHTML = title[i].innerHTML;
     const popupimg = document.querySelectorAll('popupimg');
     document.querySelector('.popup-image').innerHTML = imgdsk[i].innerHTML;
-    const popupspan = document.querySelectorAll('popupspan');
-    document.querySelector ('.client').innerHTML = spandsk[i].innerHTML;
   });
 }
