@@ -46,6 +46,7 @@ const cardetails = [
     technologiesdsk: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
     btntxt: 'See Project',
   },
+
 ];
 
 const cardWorks = document.querySelector('#portfolio');
@@ -63,7 +64,7 @@ workCard.innerHTML = `<img src= ${cardetails[0].img} alt="snapshootimg" class="s
 <img src= ${cardetails[0].imagedsk} alt="snapshootdsk" class="snapshoot-img-dsk">
 <div class="adjust">
   <div class="leftblock">
-    <h2 class="card-works-title">${cardetails[0].title}</h2>
+    <h2 class="card-works-title popup-title">${cardetails[0].title}</h2>
     <div class="ref">
       <span class="client">${cardetails[0].spans[0]}</span>
       <span><i class="fa fa-circle fa-xs"></i></span>
@@ -79,7 +80,7 @@ workCard.innerHTML = `<img src= ${cardetails[0].img} alt="snapshootimg" class="s
     <li class="tag">${cardetails[0].technologies[2]}</li>
   </ul>
   <div class="ref">
-    <button class="popup-btn">${cardetails[0].btntxt}</button>
+    <button class="popup-btn" id="1">${cardetails[0].btntxt}</button>
   </div>
 </div>`;
 
@@ -92,7 +93,7 @@ workCard1.className = 'card-works';
 workCard1.innerHTML = `<img src=${cardetails[1].img} alt="snapshootimg" class="snapshoot-img">
 <div class="adjust">
   <div class="leftblock">
-    <h2 class="card-works-title-2">${cardetails[1].title}</h2>
+    <h2 class="card-works-title-2 popup-title">${cardetails[1].title}</h2>
     <div class="ref">
       <span class="client-1">${cardetails[1].spans[0]}</span>
       <span class="client-hidden">${cardetails[1].spansdsk[0]}</span>
@@ -110,7 +111,7 @@ workCard1.innerHTML = `<img src=${cardetails[1].img} alt="snapshootimg" class="s
     <li class="tag">${cardetails[1].technologies[2]}</li>
   </ul>
   <div class="ref">
-    <button class="popup-btn">${cardetails[1].btntxt}</button>
+    <button class="popup-btn" id= "2">${cardetails[1].btntxt}</button>
   </div>
 </div>
 <img src=${cardetails[1].imagedsk} alt="snapshootdsk" class="snapshoot-img-dsk-2">`;
@@ -125,7 +126,7 @@ workCard2.innerHTML = `<img src=${cardetails[2].img} alt="snapshootimg" class="s
 <img src=${cardetails[2].imagedsk} alt="snapshootdsk" class="snapshoot-img-dsk">
 <div class="adjust">
   <div class="leftblock">
-    <h2 class="card-works-title-1">${cardetails[2].title}</h2>
+    <h2 class="card-works-title-1 popup-title">${cardetails[2].titledsk}</h2>
     <h2 class="card-works-title-hidden">${cardetails[2].titledsk}</h2>
     <div class="ref">
       <span class="client-1">${cardetails[2].spans[0]}</span>
@@ -144,7 +145,7 @@ workCard2.innerHTML = `<img src=${cardetails[2].img} alt="snapshootimg" class="s
     <li class="tag">${cardetails[2].technologies[2]}</li>
   </ul>
   <div class="ref">
-    <button class="popup-btn">${cardetails[2].btntxt}</button>
+    <button class="popup-btn" id="3">${cardetails[2].btntxt}</button>
   </div>
 </div>`;
 
@@ -157,7 +158,7 @@ workCard3.className = 'card-works';
 workCard3.innerHTML = `<img src=${cardetails[3].img} alt="snapshootimg" class="snapshoot-img">
 <div class="adjust">
   <div class="leftblock">
-    <h2 class="card-works-title-1">${cardetails[3].title}</h2>
+    <h2 class="card-works-title-1 popup-title">${cardetails[3].titledsk}</h2>
     <h2 class="card-works-title-hidden-1">${cardetails[3].titledsk}</h2>
     <div class="ref">
       <span class="client-1">${cardetails[3].spans[0]}</span>
@@ -176,12 +177,12 @@ workCard3.innerHTML = `<img src=${cardetails[3].img} alt="snapshootimg" class="s
     <li class="tag">${cardetails[3].technologies[2]}</li>
   </ul>
   <div class="ref">
-    <button class="popup-btn">${cardetails[2].btntxt}</button>
+    <button class="popup-btn" id="4">${cardetails[2].btntxt}</button>
   </div>
 </div>
 <img src=${cardetails[3].imagedsk} alt="snapshoot-img" class="snapshoot-img-dsk-2">`;
 
-// cardWorks.appendChild(workCard);
+cardWorks.appendChild(workCard);
 
 const buttons = document.querySelectorAll('.popup-btn');
 const modal = document.getElementById('myModal');
@@ -204,5 +205,11 @@ span.addEventListener('click', spanone);
 for (let i = 0; i <= buttons.length; i += 1) {
   buttons[i].addEventListener('click', () => {
     modal.style.display = 'block';
+    const title = document.querySelectorAll('.popup-title');
+    document.querySelector('.frame-mobile-h2').innerHTML = title[i].innerHTML;
+    const popupimg = document.querySelectorAll('popupimg');
+    document.querySelector('.popup-image').innerHTML = imgdsk[i].innerHTML;
+    const popupspan = document.querySelectorAll('popupspan');
+    document.querySelector ('.client').innerHTML = spandsk[i].innerHTML;
   });
 }
