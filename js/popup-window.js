@@ -52,7 +52,7 @@ const cardetails = [
 const cardWorks = document.querySelector('#portfolio');
 
 cardWorks.className = 'works';
-for (let i = 0; i < cardetails.length; i++) {
+for (let i = 0; i < cardetails.length; i ++) {
   const workCard = document.createElement('article');
   const workCardDiv = document.createElement('div');
   workCardDiv.className = 'card-works';
@@ -87,7 +87,7 @@ for (let i = 0; i < cardetails.length; i++) {
 const modal = document.getElementById('myModal');
 
 function modalClick(i) {
-  modal.innerHTML =`
+  modal.innerHTML = `
   <div class="modal">
         <!-- Modal content -->
         <div class="frame-desktop">
@@ -145,7 +145,6 @@ function modalClick(i) {
     modal.classList.add('display-none');
   });
 }
-
 
 const buttons = document.querySelectorAll('.popup-btn');
 
