@@ -7,7 +7,6 @@
   left: 0;
   background: rgb(96, 112, 255, 0.95);
   backdrop-filter: blur(9px);
-  mix-blend-mode: multiply;
   overflow-y: hidden;
   overflow-x: hidden;
   transition: 0.5s;
@@ -42,7 +41,7 @@
 .mobile-menu .closebtn {
   border: none;
   position: absolute;
-  left: 300px;
+  left: 85%;
   font-size: 40px;
 }
 

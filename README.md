@@ -88,17 +88,12 @@ Clone this repository to your desired folder:
 - Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
 - LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
 
-👤 **Diariatou Diakite**
 
-- GitHub: [@diarisdiakite](https://github.com/iarisdiakite)
-- Twitter: [@diarisd](https://twitter.com/diarisd)
-- LinkedIn: [diarisd](https://linkedin.com/in/diarisd)
+👤 **Rapheal Okonta**
 
-👤 **Victor Miñope**
+- GitHub: (https://github.com/3nityGitHub)
+- Twitter: (https://twitter.com/tbarijohnson)
 
-- GitHub: [@victormc13](https://github.com/victormc13)
-- Twitter: [@VctorMC20](https://twitter.com/VctorMC20)
-- LinkedIn: [Victor MC](https://linkedin.com/in/victormc13/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

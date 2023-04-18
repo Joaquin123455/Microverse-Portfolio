@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/desktop.css">
   <link rel="stylesheet" href="./css/stylemenu.css">
+  <link rel="stylesheet" href="./css/popup-window.css">
   <title>Joaquin's Portfolio</title>
-</head>
-
+</head>`
 <body>
   <header>
     <a class="header-title" href="#">My Logo</a>
@@ -69,125 +69,10 @@
         </li>
       </ul>
     </section>
-    <section class="works" id="portfolio">
-      <article class="card-works">
-        <img src="./img/Snapshoot Portfolio.png" alt="snapshootimg" class="snapshoot-img">
-        <img src="./img/desktop/Snapshoot1-desktop.svg" alt="snapshootdsk" class="snapshoot-img-dsk">
-        <div class="adjust">
-          <div class="leftblock">
-            <h2 class="card-works-title">Tonic</h2>
-            <div class="ref">
-              <span class="client">Canopy</span>
-              <span><i class="fa fa-circle fa-xs"></i></span>
-              <span>Back End Dev</span>
-              <span><i class="fa fa-circle"></i></span>
-              <span class="year">2015</span>
-            </div>
-            <p class="card-primary-text">A daily selection of privately personalized reads; no accounts or sign-ups
-              required.</p>
-          </div>
-          <ul class="tags">
-            <li class="tag">html</button>
-            <li class="tag">css</button>
-            <li class="tag">javascript</button>
-          </ul>
-          <div class="ref">
-            <button>See project</button>
-          </div>
-        </div>
-      </article>
+    <section id="myModal" class="works-modal display-none">
+      <!-- The Modal -->
     </section>
-    <section class="works-2">
-      <article class="card-works">
-        <img src="./img/Snapshoot Portfolio-2.png" alt="snapshootimg" class="snapshoot-img">
-        <div class="adjust">
-          <div class="leftblock">
-            <h2 class="card-works-title-2">Multi-Post Stories</h2>
-            <div class="ref">
-              <span class="client-1">Canopy</span>
-              <span class="client-hidden">FACEBOOK</span>
-              <span><i class="fa fa-circle fa-xs"></i></span>
-              <span class="role">Back End Dev</span>
-              <span><i class="fa fa-circle"></i></span>
-              <span class="year">2015</span>
-            </div>
-            <p class="card-primary-text">A daily selection of privately personalized reads; no accounts or sign-ups
-              required.</p>
-          </div>
-          <ul class="tags">
-            <li class="tag">html</button>
-            <li class="tag">css</button>
-            <li class="tag-hidden">ruby on rails</li>
-            <li class="tag">javascript</button>
-          </ul>
-          <div class="ref">
-            <button>See project</button>
-          </div>
-        </div>
-        <img src="./img/desktop/Snapshoot2-desktop.svg" alt="snapshootdsk" class="snapshoot-img-dsk-2">
-      </article>
-    </section>
-    <section class="works-3">
-      <article class="card-works">
-        <img src="./img/Snapshoot Portfolio-3.png" alt="snapshootimg" class="snapshoot-img">
-        <img src="./img/desktop/Snapshoot3-desktop.svg" alt="snapshootdsk" class="snapshoot-img-dsk">
-        <div class="adjust">
-          <div class="leftblock">
-            <h2 class="card-works-title-1">Tonic</h2>
-            <h2 class="card-works-title-hidden">Facebook 360</h2>
-            <div class="ref">
-              <span class="client-1">Canopy</span>
-              <span class="client-hidden">FACEBOOK</span>
-              <span><i class="fa fa-circle fa-xs"></i></span>
-              <span class="role">Back End Dev</span>
-              <span><i class="fa fa-circle"></i></span>
-              <span class="year">2015</span>
-            </div>
-            <p class="card-primary-text">A daily selection of privately personalized reads; no accounts or sign-ups
-              required.</p>
-          </div>
-          <ul class="tags">
-            <li class="tag">html</button>
-            <li class="tag">css</button>
-            <li class="tag-hidden">ruby on rails</li>
-            <li class="tag">javascript</button>
-          </ul>
-          <div class="ref">
-            <button>See project</button>
-          </div>
-        </div>
-      </article>
-    </section>
-    <section class="works-4">
-      <article class="card-works">
-        <img src="./img/Snapshoot Portfolio-4.png" alt="snapshootimg" class="snapshoot-img">
-        <div class="adjust">
-          <div class="leftblock">
-            <h2 class="card-works-title-1">Multi-Post Stories</h2>
-            <h2 class="card-works-title-hidden-1">Uber Navigation</h2>
-            <div class="ref">
-              <span class="client-1">Canopy</span>
-              <span class="client-hidden-2">UBER</span>
-              <span><i class="fa fa-circle fa-xs"></i></span>
-              <span class="role">Back End Dev</span>
-              <span><i class="fa fa-circle"></i></span>
-              <span class="year">2015</span>
-            </div>
-            <p class="card-primary-text">A daily selection of privately personalized reads; no accounts or sign-ups
-              required.</p>
-          </div>
-          <ul class="tags">
-            <li class="tag">html</button>
-            <li class="tag">css</button>
-            <li class="tag-hidden">ruby on rails</li>
-            <li class="tag">javascript</button>
-          </ul>
-          <div class="ref">
-            <button>See project</button>
-          </div>
-        </div>
-        <img src="./img/desktop/Snapshoot4- desktop.svg" alt="snapshoot-img" class="snapshoot-img-dsk-2">
-      </article>
+    <section id="portfolio">
     </section>
     <section class="about-my-self" id="about">
       <div class="squads">
@@ -269,5 +154,6 @@
     </div>
   </footer>
   <script src="./js/menu.js"></script>
+  <script src="./js/popup-window.js"></script>
 </body>
 </html>

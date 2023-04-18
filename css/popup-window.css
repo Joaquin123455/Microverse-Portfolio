@@ -1,0 +1,264 @@
+.works-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 114px auto;
+  width: 80%;
+  height: auto;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 24px;
+  left: 10%;
+  top: -5%;
+}
+
+.frame-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-popup {
+  font-size: 30px;
+  color: #67798e;
+}
+
+.close-popup:hover,
+.close-popup:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.img-popup {
+  display: none;
+}
+
+.img-popup-mobile {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.paragraph-popup {
+  display: none;
+}
+
+.paragraph-popup-mobile {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.client {
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #344563;
+  margin-left: 4px;
+}
+
+.role {
+  font-style: normal;
+  font-weight: 400;
+  color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+}
+
+.year {
+  font-style: normal;
+  font-weight: 400;
+  color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tags-hidden {
+  list-style: none;
+  flex-direction: row;
+  margin-left: 6px;
+  display: none;
+  text-decoration: none;
+}
+
+.tags {
+  padding-bottom: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.btn-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-popup-right {
+  width: 145px;
+  height: 48px;
+}
+
+.btn-popup-left {
+  width: 145px;
+  height: 48px;
+}
+
+.btn-popup-right:hover {
+  background-color: #3244e7;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-popup-right:active {
+  background-color: #3244e7;
+  color: white;
+}
+
+.btn-popup-left:hover {
+  background-color: #3244e7;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-popup-left:active {
+  background-color: #3244e7;
+  color: white;
+}
+
+.btn-a {
+  text-decoration: none;
+}
+
+.frame-mobile-h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  font-family: 'Poppins', serif;
+}
+
+.img-btn {
+  padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 80%;
+    height: auto;
+    margin: 114px auto;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    padding: 24px;
+    left: 10%;
+    top: -10%;
+  }
+
+  .frame-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .spans-popup {
+    padding-bottom: 30px;
+  }
+
+  .img-popup {
+    display: flex;
+    width: 100%;
+    padding-bottom: 56px;
+  }
+
+  .img-popup-mobile {
+    display: none;
+  }
+
+  .modal-container {
+    display: flex;
+  }
+
+  .tags-button {
+    text-align: left;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+  }
+
+  .information-popup {
+    width: 75%;
+    padding: 0;
+  }
+
+  .paragraph-popup {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    width: 80%;
+    display: flex;
+  }
+
+  .paragraph-popup-mobile {
+    display: none;
+  }
+
+  .btn-block {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .img-btn {
+    padding-left: 14px;
+  }
+
+  .tags-hidden {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  .btn-popup-right {
+    width: 145px;
+    height: 48px;
+  }
+
+  .btn-popup-left {
+    width: 145px;
+    height: 48px;
+  }
+}
