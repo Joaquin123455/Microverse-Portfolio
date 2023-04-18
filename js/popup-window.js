@@ -52,7 +52,7 @@ const cardetails = [
 const cardWorks = document.querySelector('#portfolio');
 
 cardWorks.className = 'works';
-for (let i = 0; i < cardetails.length; i ++) {
+for (let i = 0; i < cardetails.length; i += 1) {
   const workCard = document.createElement('article');
   const workCardDiv = document.createElement('div');
   workCardDiv.className = 'card-works';
