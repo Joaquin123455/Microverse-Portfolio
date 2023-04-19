@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   background: rgb(96, 112, 255, 0.95);
-  backdrop-filter: blur(9px);
+  backdrop-filter: blur(10px);
   mix-blend-mode: multiply;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -52,19 +52,3 @@
   color: #f1f1f1;
 }
 */
-
-@media screen and (max-height: 450px) {
-  .mobile-menu {
-    overflow-y: auto;
-  }
-
-  .mobile-menu a {
-    font-size: 20px;
-  }
-
-  .mobile-menu .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
