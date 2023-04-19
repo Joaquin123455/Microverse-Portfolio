@@ -10,5 +10,6 @@ form.addEventListener('submit', (e) => {
     return;
   }
   small.style.color = '#000000';
+  small.style.fontFamily = 'Poppins, sans-serif';
   small.innerText = 'Please enter your email in lowercase.';
 });
