@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   background: rgb(96, 112, 255, 0.95);
-  backdrop-filter: blur(9px);
+  backdrop-filter: blur(10px);
   mix-blend-mode: multiply;
   overflow-y: hidden;
   overflow-x: hidden;
