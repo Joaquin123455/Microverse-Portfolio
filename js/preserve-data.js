@@ -13,3 +13,22 @@ function getFormData() {
     ftextarea.value = userDataObj.message;
   }
 }
+// Set data in the javascript object
+function setFormData() {
+  // Create a JavaScript object with the captured values
+  const contactInfo = {
+    name: fname.value,
+    email: femail.value,
+    message: ftextarea.value,
+  };
+  // Save the object in the localStorage
+  localStorage.setItem('userData', JSON.stringify(contactInfo));
+}
+
+// Load stored object values from localstorage
+window.onload = () => { getFormData(); };
+
+// Listeners when an input value in the form changes
+fname.addEventListener('change', () => setFormData());
+femail.addEventListener('change', () => setFormData());
+ftextarea.addEventListener('change', () => setFormData());
