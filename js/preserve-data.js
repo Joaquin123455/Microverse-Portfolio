@@ -1,10 +1,10 @@
 // Capture the form and form elements
 const fname = document.getElementById('f-name');
 const femail = document.getElementById('f-email');
-const ftextarea = document.getElementById('f-msg');
+const ftextarea = document.getElementByIdd('f-msg');
 
 // Get data from the javascript object
-function getFormData() {
+ function getFormData() {
   const userData = localStorage.getItem('userData');
   if (userData !== null) {
     const userDataObj = JSON.parse(userData);

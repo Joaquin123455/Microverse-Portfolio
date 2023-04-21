@@ -1,5 +1,5 @@
 const email = document.getElementById('f-email');
-const form = document.getElementById('f-contact-form');
+const form = document.getElementById('contact-form');
 const small = document.querySelector('small');
 
 form.addEventListener('submit', (e) => {

@@ -8,7 +8,7 @@ const btnOpnNav = () => {
 };
 
 const btncloseNav = () => {
-  document.getElementById('menu').style.height = '0%';
+  document.getElementById('menu').style.height = '';
 };
 
 btnopn.addEventListener('click', btnOpnNav);
